@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="bookdepositoryscraper",
-    version="1.2",
+    version="0.1.1",
     description="Scraper for the Book Depository website",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -23,8 +23,8 @@ setup(
     author_email="adeyinkaoresanya@gmail.com",
     keywords="core package",
     license="MIT",
-    py_modules = ["scraper"],
-    packages= find_packages('bookdepositoryscraper'), 
-    package_dir= {"": "bookdepositoryscraper"},
+    py_modules = ["bookdepositoryscraper"],
+    packages= find_packages('src'), 
+    package_dir= {"": "src"},
     python_requires= ">=3.6"
     )

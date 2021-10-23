@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-bookdepositoryscraper/scraper.py
-bookdepositoryscraper/bookdepositoryscraper.egg-info/PKG-INFO
-bookdepositoryscraper/bookdepositoryscraper.egg-info/SOURCES.txt
-bookdepositoryscraper/bookdepositoryscraper.egg-info/dependency_links.txt
-bookdepositoryscraper/bookdepositoryscraper.egg-info/top_level.txt

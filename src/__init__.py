@@ -1,0 +1,1 @@
+from .bookdepositoryscraper import Scraper

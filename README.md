@@ -7,16 +7,20 @@ The Book Depository Scraper is a Python package application for scraping the Boo
 ## Tools/Libraries required
 
 * [Python 3.9](https://python.org) : Base programming language for development. The latest version of python.
-* sklearn
-* pickle
+* bs4
+* pandas
 * requests
-* flask
   
 ## Installation
 
-Use the package installer pip to install book scraper.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bookdepositoryscraper.
 
-Install directly from github repository
+To install directly from github repository
+
+```python
+
+!pip install git+https://github.com/adeyinkaoresanya/bookdepositoryscraper.git
+```
 
 ## Usage
 
@@ -25,7 +29,7 @@ The scraper takes in two arguments---genre and number of items--- returns a data
 To collect data without cleaning:
 
 ```python
-from src.scraper import Scraper
+from scraper import Scraper
 
 scraper = Scraper("thriller", 300)
 df= scraper.scrape_data()
@@ -35,7 +39,7 @@ scraper.create_csv(df, "books")
 To collect clean data:
 
 ```python
-from src.scraper import Scraper
+from scraper import Scraper
 from src.preprocess import ProcessData
 
 scraper = Scraper("thriller", 300)
