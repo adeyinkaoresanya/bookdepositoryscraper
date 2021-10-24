@@ -19,7 +19,7 @@ To install directly from github repository
 
 ```python
 
-!pip install git+https://github.com/adeyinkaoresanya/bookdepositoryscraper.git
+!pip install  git+https://github.com/adeyinkaoresanya/bookdepositoryscraper.git
 ```
 
 ## Usage
