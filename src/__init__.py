@@ -1,1 +1,2 @@
-from .bookdepositoryscraper import Scraper
+from .scraper import Scraper
+from .preprocess import ProcessData
