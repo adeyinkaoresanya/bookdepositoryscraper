@@ -15,11 +15,9 @@ The Book Depository Scraper is a Python package application for scraping the Boo
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install bookdepositoryscraper.
 
-To install directly from github repository
-
 ```python
 
-!pip install  git+https://github.com/adeyinkaoresanya/bookdepositoryscraper.git
+pip install bookdepositoryscraper
 ```
 
 ## Usage
@@ -40,12 +38,12 @@ To collect clean data:
 
 ```python
 from scraper import Scraper
-from src.preprocess import ProcessData
+from preprocess import ProcessData
 
 scraper = Scraper("thriller", 300)
 df= scraper.scrape_data()
 s= ProcessData() 
-clean_df= s.clean_dataframe(df_total)
+clean_df= s.clean_dataframe(df)
 scraper.create_csv(clean_df, "books")
 
 ```

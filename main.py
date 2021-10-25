@@ -1,5 +1,5 @@
-from bookdepositoryscraper.scraper import Scraper
-from bookdepositoryscraper.preprocess import ProcessData
+from scraper import Scraper
+from preprocess import ProcessData
 import pandas as pd
 
 
